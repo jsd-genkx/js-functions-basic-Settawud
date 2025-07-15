@@ -29,6 +29,7 @@ const trafficLightAction = (str_color) => {
             return 'Invalid light color';
     }
 }
+
 // Example Test Cases
 console.log(trafficLightAction("green")); // "Go"
 console.log(trafficLightAction("yellow")); // "Slow down"
