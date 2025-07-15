@@ -30,6 +30,7 @@ const fizzBuzz = (num) => {
     }
     return result;
 };
+
 // Example Test Cases
 console.log(fizzBuzz(15)); // "FizzBuzz"
 console.log(fizzBuzz(9)); // "Fizz"
