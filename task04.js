@@ -17,7 +17,18 @@ Task 04: Traffic Light Action
 */
 
 // 👨‍💻 TODO-01: Write your code below to complete the task as described above.
-
+const trafficLightAction = (str_color) => {
+    switch (str_color){
+        case "green":
+            return "Go";
+        case "yellow":
+            return "Slow down";
+        case "red":
+            return "Stop";
+        default:
+            return 'Invalid light color';
+    }
+}
 // Example Test Cases
 console.log(trafficLightAction("green")); // "Go"
 console.log(trafficLightAction("yellow")); // "Slow down"
